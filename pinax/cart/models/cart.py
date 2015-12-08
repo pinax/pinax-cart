@@ -1,5 +1,7 @@
+from django.conf import settings
 from django.db import models
 
 
 class Cart(models.Model):
-    pass
+
+    owner = models.ForeignKey(settings.AUTH_USER_MODEL)

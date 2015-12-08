@@ -5,5 +5,5 @@ from pinax.cart.models import Cart
 
 class CartTestCase(TestCase):
 
-    def test_cart(self):
+    def test_cart_count(self):
         self.assertEqual(Cart.objects.count(), 0)
