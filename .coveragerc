@@ -1,0 +1,7 @@
+[run]
+source = pinax
+omit = pinax/cart/tests/*,pinax/cart/admin.py
+branch = 1
+
+[report]
+omit = pinax/cart/tests/*,pinax/cart/admin.py
